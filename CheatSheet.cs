@@ -37,7 +37,7 @@ public static string ImportGames(VaporStoreDbContext context, string jsonString)
     }     
    
     games.Add(game);
-    .......................
+    ........................
     sb.AppendLine($"Added {gameDto.Name} ({gameDto.Genre}) with {gameDto.Tags.Length} tags");
   }
 
